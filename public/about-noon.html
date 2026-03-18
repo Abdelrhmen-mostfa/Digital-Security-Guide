@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عن المؤسسة - مؤسسة نون للتنمية الرقمية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              cairo: ['Cairo', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Cairo', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-slate-50 text-slate-900 overflow-x-hidden">
+    
+    <!-- 1. Header (Simplified version of the main site's implicit header) -->
+    <header class="bg-blue-950 text-white py-4 sticky top-0 z-50 shadow-md">
+      <div class="container mx-auto px-6 flex justify-between items-center">
+        <div class="flex items-center gap-3">
+          <!-- Logo -->
+          <div class="w-24 h-26 flex items-center justify-center">
+            <img src="logo.png" alt="شعار مؤسسة نون" class="w-full h-full object-contain" />
+          </div>
+          <span class="font-bold text-xl">مؤسسة نون</span>
+        </div>
+        <nav>
+          <ul class="flex gap-6">
+            <li><a href="index.html" class="hover:text-blue-300 transition-colors">الرئيسية</a></li>
+            <li><a href="about-noon.html" class="text-blue-400 font-bold">عن المؤسسة</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 2. Hero Section -->
+    <section class="relative bg-blue-950 text-white py-20 lg:py-32 overflow-hidden">
+      <div class="absolute inset-0 opacity-10">
+        <div class="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iMiIgY3k9IjIiIHI9IjIiIGZpbGw9IiNmZmYiLz48L3N2Zz4=')] bg-[length:30px_30px]"></div>
+      </div>
+      <div class="container mx-auto px-6 relative z-10 text-center">
+        <!-- Logo in Hero -->
+        <div class="w-60 h-48 flex items-center justify-center mx-auto mb-8">
+          <img src="logo.png" alt="شعار مؤسسة نون" class="w-full h-full object-contain drop-shadow-2xl" />
+        </div>
+        <h1 class="text-4xl lg:text-6xl font-bold mb-6 leading-tight">
+          مؤسسة نون للتنمية الرقمية
+        </h1>
+        <p class="text-xl text-blue-200 mb-8 leading-relaxed max-w-2xl mx-auto">
+          تمكين المجتمع من خلال التعليم والتكنولوجيا
+        </p>
+      </div>
+    </section>
+
+    <!-- 3. About the Organization -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6 max-w-4xl">
+        <h2 class="text-3xl font-bold text-center text-blue-950 mb-12 relative inline-block left-1/2 -translate-x-1/2">
+          عن مؤسسة نون
+          <div class="absolute -bottom-4 left-0 w-full h-1 bg-blue-500 rounded-full"></div>
+        </h2>
+        
+        <div class="bg-slate-50 p-8 md:p-10 rounded-3xl border border-slate-100 shadow-sm text-lg leading-relaxed text-slate-700 mb-12">
+          <p class="mb-6">
+            مؤسسة نون مبادرة تنموية تعمل في مجال تمكين الأفراد رقميًا وتنمية المهارات التقنية، مع التركيز على استخدام التكنولوجيا كأداة للتعليم والتطوير المجتمعي. تهدف المؤسسة إلى إعداد جيل قادر على التعامل مع التحولات الرقمية بوعي وكفاءة من خلال برامج تدريبية وورش عمل تطبيقية تستهدف الأطفال والشباب.
+          </p>
+          <p class="font-bold text-blue-900 mb-4">تركز المؤسسة على عدة محاور رئيسية:</p>
+          <ul class="grid sm:grid-cols-2 gap-4">
+            <li class="flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+              التعليم الرقمي
+            </li>
+            <li class="flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+              التوعية بالاستخدام الآمن للتكنولوجيا
+            </li>
+            <li class="flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+              تنمية مهارات الابتكار
+            </li>
+            <li class="flex items-center gap-3 bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+              <div class="w-2 h-2 rounded-full bg-blue-500"></div>
+              دعم المبادرات المجتمعية التعليمية
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Founder Section -->
+    <section class="py-20 bg-slate-50">
+      <div class="container mx-auto px-6 max-w-5xl">
+        <div class="flex flex-col md:flex-row items-center gap-12 bg-white p-8 md:p-12 rounded-3xl shadow-md border border-slate-100">
+          <!-- Profile Image -->
+          <div class="w-48 h-48 md:w-64 md:h-64 shrink-0 rounded-full overflow-hidden border-4 border-blue-100 shadow-lg bg-slate-200 flex items-center justify-center">
+            <img src="founder.jpg" alt="عبدالرحمن مصطفى" class="w-full h-full object-cover" />
+          </div>
+          
+          <div class="flex-1 text-center md:text-right">
+            <h2 class="text-3xl font-bold text-blue-950 mb-2">عبدالرحمن مصطفى</h2>
+            <p class="text-blue-600 font-semibold mb-6">مؤسس المبادرة</p>
+            
+            <div class="space-y-4 text-slate-700 leading-relaxed">
+              <p>
+                عبدالرحمن مصطفى مدرب في مجال تكنولوجيا المعلومات والاتصالات (ICT) ومتخصص في التدريب الرقمي وتنمية المهارات التقنية. يمتلك خبرة في العمل المجتمعي والتطوعي المرتبط بالتعليم والتكنولوجيا، حيث عمل على تصميم وتنفيذ برامج تدريبية تستهدف الأطفال والشباب لتنمية مهاراتهم الرقمية.
+              </p>
+              <p>
+                يركز في برامجه التدريبية على التعليم التطبيقي القائم على المشاريع، ونشر الوعي الرقمي، وتمكين الشباب من استخدام التكنولوجيا كأداة للتعلم والإبداع وخدمة المجتمع.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Work Areas -->
+    <section class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <h2 class="text-3xl font-bold text-center text-blue-950 mb-16">مجالات العمل</h2>
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div class="bg-blue-50 p-6 rounded-2xl text-center border border-blue-100 hover:-translate-y-2 transition-transform duration-300">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            </div>
+            <h3 class="font-bold text-slate-800">التدريب الرقمي</h3>
+          </div>
+          
+          <div class="bg-blue-50 p-6 rounded-2xl text-center border border-blue-100 hover:-translate-y-2 transition-transform duration-300">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            </div>
+            <h3 class="font-bold text-slate-800">تعليم الأطفال التكنولوجيا</h3>
+          </div>
+          
+          <div class="bg-blue-50 p-6 rounded-2xl text-center border border-blue-100 hover:-translate-y-2 transition-transform duration-300">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+            </div>
+            <h3 class="font-bold text-slate-800">الأمن الرقمي</h3>
+          </div>
+          
+          <div class="bg-blue-50 p-6 rounded-2xl text-center border border-blue-100 hover:-translate-y-2 transition-transform duration-300">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+            </div>
+            <h3 class="font-bold text-slate-800">الابتكار التكنولوجي</h3>
+          </div>
+          
+          <div class="bg-blue-50 p-6 rounded-2xl text-center border border-blue-100 hover:-translate-y-2 transition-transform duration-300">
+            <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-600">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+            </div>
+            <h3 class="font-bold text-slate-800">المبادرات المجتمعية</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer class="bg-blue-950 text-white py-12 text-center border-t border-blue-900">
+      <div class="container mx-auto px-6">
+        <div class="w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-6">
+          <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+        </div>
+        <h2 class="text-2xl font-bold mb-4">الأمن الرقمي مسؤولية كل مستخدم للإنترنت</h2>
+        <p class="text-blue-300 max-w-2xl mx-auto mb-8 leading-relaxed">
+          الوعي هو خط الدفاع الأول. شارك هذه المعلومات مع أصدقائك وعائلتك لحمايتهم من المخاطر الرقمية.
+        </p>
+        <div class="w-16 h-1 bg-blue-800 mx-auto mb-8 rounded-full"></div>
+        <p class="text-sm text-blue-400">
+          © <script>document.write(new Date().getFullYear())</script> دليل الأمن الرقمي. تم التصميم لأغراض التوعية والتدريب.
+        </p>
+      </div>
+    </footer>
+
+  </body>
+</html>
