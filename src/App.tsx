@@ -83,14 +83,14 @@ export default function App() {
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <div className="w-25 h-25 flex items-center justify-center">
-              <img src="public/logo.png" alt="شعار مؤسسة نون" className="w-full h-full object-contain" />
+              <img src="./logo.png" alt="شعار مؤسسة نون" className="w-full h-full object-contain" />
             </div>
            <span className="font-bold text-xl">مؤسسة نون</span>
           </div>
           <nav>
             <ul className="flex gap-6">
-              <li><a href="/" className="text-blue-400 font-bold">الرئيسية</a></li>
-              <li><a href="/about-noon.html" className="hover:text-blue-300 transition-colors">عن المؤسسة</a></li>
+              <li><a href="./index.html" className="text-blue-400 font-bold">الرئيسية</a></li>
+              <li><a href="./about-noon.html" className="hover:text-blue-300 transition-colors">عن المؤسسة</a></li>
             </ul>
           </nav>
         </div>
