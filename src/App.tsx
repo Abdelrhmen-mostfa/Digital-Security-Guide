@@ -83,7 +83,7 @@ export default function App() {
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <div className="w-25 h-25 flex items-center justify-center">
-              <img src="/logo.png" alt="شعار مؤسسة نون" className="w-full h-full object-contain" />
+              <img src="public/logo.png" alt="شعار مؤسسة نون" className="w-full h-full object-contain" />
             </div>
            <span className="font-bold text-xl">مؤسسة نون</span>
           </div>
